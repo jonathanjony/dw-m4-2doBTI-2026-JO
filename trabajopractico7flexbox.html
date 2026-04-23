@@ -1,52 +1,49 @@
-°<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>trabajo pactico</title>
-    <style>
-        main{
-             width: 100%;
-            height: 100dvh;
-            background-color: rgba(255, 255, 255, 0.993);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            
-        }
-        div{
-            border: solid 1px rgb(255, 255, 255);
-            width: 200px;
-            height: 200px;
-            display:block;
-        }
-        .Tit{
-            flex: 1 0 100px;
-            background-color:black;
-            
-        }
-        .cue{
-           
-        }
-        .Pie{
-            flex: 3 0 100px;
-             background-color:gray;
-        }
-    </style>
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="utf-8">
+<title>Tarjeta de presentación</title>
+<style>
+  .Tarj{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-family: sans-serif;
+    height: 300px;
+    box-shadow: 0px 0px 7px 0px lightgrey;
+    border: 0;
+  }
+  .cuer{
+    flex: 4;
+    padding: 8px;
+  }
+  .titu{     
+    flex: 1;
+    background: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  h4{
+    padding:0
+  }
+  .pie{
+    flex: 1;
+    background: darkgray;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
 </head>
 <body>
-    <main>
-    <div class="Tit">
-    <h1>Tarjeta de presentación</h1>
+<div class="Tarj">  
+  <div class="titu"><h2>Tarjeta de presentación</h2></div>
+  <div class="cuer">Contenido del cuerpo de la tarjeta</div>
+  <div class="pie"><h4>Pie de la tarjeta</h4></div>
+</div>  
 
-    </div>
-    <div class="Cue">
-    <p>contenido del cuerpo der la tarjeta</p>
-    </div>
-    <div class="Pie">
-       <h4>Pie de la tajeta</h4>
 
-    </div>
-    </main>
-</body>
-</html>
+</body></html>
